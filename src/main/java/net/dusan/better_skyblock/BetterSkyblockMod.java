@@ -1,6 +1,12 @@
 package net.dusan.better_skyblock;
 
 import com.mojang.logging.LogUtils;
+import net.dusan.better_skyblock.block.ModBlocks;
+import net.dusan.better_skyblock.capability.ModCapabilities;
+import net.dusan.better_skyblock.item.ModCreativeModeTabs;
+import net.dusan.better_skyblock.item.ModItems;
+import net.dusan.better_skyblock.packet.ModNetwork;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -29,6 +35,12 @@ public class BetterSkyblockMod {
 
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModItems.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
+        ModBlocks.register(modEventBus);
+        ModCapabilities.register();
+        ModNetwork.register();
+
         modEventBus.addListener(this::addCreative);
 
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -39,6 +51,14 @@ public class BetterSkyblockMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.WOODEN_PICKAXE);
+            event.accept(ModItems.STONE_PICKAXE);
+            event.accept(ModItems.IRON_PICKAXE);
+            event.accept(ModItems.GOLD_PICKAXE);
+            event.accept(ModItems.DIAMOND_PICKAXE);
+            event.accept(ModItems.NETHERITE_PICKAXE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

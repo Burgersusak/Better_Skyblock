@@ -1,0 +1,37 @@
+{
+  "item.better_skyblock.giant_fragment_diamond": "§5Diamante's Handle",
+  "item.better_skyblock.giant_fragment_diamond.tooltip": "§8Precursor relic§r\n§r\n§7The hilt of the largest sword known to humankind§r\n§r\n§5EPIC DUNGEON ITEM",
+
+  "item.better_skyblock.giant_fragment_boulder": "§5Jolly Pink Rock",
+  "item.better_skyblock.giant_fragment_boulder.tooltip": "§8Precursor relic§r\n§r\n§7The hottest shade of pink ever worn by a Giant§r\n§r\n§5EPIC DUNGEON ITEM",
+
+  "item.better_skyblock.giant_fragment_bigfoot": "§5Bigfoot's Lasso",
+  "item.better_skyblock.giant_fragment_bigfoot.tooltip": "§8Precursor relic§r\n§r\n§7Hard to throw, even harder to catch§r\n§r\n§5EPIC DUNGEON ITEM",
+
+  "item.better_skyblock.giant_fragment_laser": "§5L.A.S.R.'s Eye",
+  "item.better_skyblock.giant_fragment_laser.tooltip": "§8Precursor relic§r\n   §r\n§7The eye is mightier than the sword§r\n   §r\n§5EPIC DUNGEON ITEM",
+
+  "item.better_skyblock.mithril": "§5L.A.S.R.'s Eye",
+  "item.better_skyblock.mithril.tooltip": "§7The Man called it true-silver while the Dwarves, who loved it above all other things, had their own, secret name for it§r\n   §r\n§5EPIC DUNGEON ITEM",
+
+  "item.better_skyblock.fel_rose": "§5Fel Rose",
+  "item.better_skyblock.fel_rose.tooltip": "§5EPIC DUNGEON ITEM",
+
+  "effect.better_skyblock.archery": "Archery",
+
+  "item.better_skyblock.spirit_bone": "§5Spirit Bone",
+  "item.better_skyblock.spirit_bone.tooltip": "§7A Wolf Spirit is attached to this bone. Wolf Spirits always come back to their masters\n§r\n§5EPIC DUNGEON ITEM",
+
+  "item.better_skyblock.spirit_wing": "§5Spirit Bone",
+  "item.better_skyblock.spirit_wing.tooltip": "§7A Spirits of bats often take often take refuge in their own wings. They sometimes grow in power and gain tremendous magical properties.§r\n§r\n§5EPIC DUNGEON ITEM",
+
+  "item.better_skyblock.fel_skull": "§6Fel Skull",
+  "item.better_skyblock.fel_skull.tooltip": "§6LEGENDARY DUNGEON ITEM",
+
+  "item.better_skyblock.necron_handle": "§5Necron's Handle",
+  "item.better_skyblock.necron_handle.tooltip": "§5EPIC DUNGEON ITEM",
+
+
+  "item.better_skyblock.enchanted_redstone": "§aEnchanted Redstone",
+  "item.better_skyblock.enchanted_redstone.tooltip": "§aUNCOMMON"
+}
