@@ -34,20 +34,7 @@ public class ModItems {
             () -> new TooltipItem("spirit_wing", new Item.Properties()));
     public static final RegistryObject<Item> MITHRIL = ITEMS.register("mithril",
             () -> new TooltipItem("mithril", new Item.Properties()));
-    public static final RegistryObject<Item> WOODEN_PICKAXE = ITEMS.register("wooden_pickaxe",
-            () -> new SkyblockPickaxeItem(Tiers.WOOD, 1, -2.8F, 7000.0, 0, new Item.Properties()));
-    public static final RegistryObject<Item> IRON_PICKAXE = ITEMS.register("iron_pickaxe",
-            () -> new SkyblockPickaxeItem(Tiers.IRON,1,-2.8F,160.0F,0, new Item.Properties()));
-    public static final RegistryObject<Item> GOLD_PICKAXE = ITEMS.register("gold_pickaxe",
-            () -> new SkyblockPickaxeItem(Tiers.GOLD,1,-2.8F,250.0F,0, new Item.Properties()));
-    public static final RegistryObject<Item> STONE_PICKAXE = ITEMS.register("stone_pickaxe",
-            () -> new SkyblockPickaxeItem(Tiers.IRON,1,-2.8F,160.0F,0, new Item.Properties()));
-    public static final RegistryObject<Item> DIAMOND_PICKAXE = ITEMS.register("diamond_pickaxe",
-            () -> new SkyblockPickaxeItem(Tiers.GOLD,1,-2.8F,250.0F,0, new Item.Properties()));
-    public static final RegistryObject<Item> NETHERITE_PICKAXE = ITEMS.register("netherite_pickaxe",
-            () -> new SkyblockPickaxeItem(Tiers.GOLD,1,-2.8F,250.0F,0, new Item.Properties()));
-    public static final RegistryObject<Item> ENCHANTED_REDSTONE = ITEMS.register("enchanted_redstone",
-            () -> new EnchantedItem("enchanted_redstone", new Item.Properties()));
+
 
 
     public static void register(IEventBus eventBus) {
