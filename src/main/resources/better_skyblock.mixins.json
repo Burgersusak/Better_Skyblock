@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.dusan.better_skyblock.event.custom.tickBreakSpeed",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "PlayerBreakBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -4,19 +4,12 @@ package net.dusan.better_skyblock.event;
 
 import net.dusan.better_skyblock.BetterSkyblockMod;
 import net.dusan.better_skyblock.effect.ModEffects;
-import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
+import net.dusan.better_skyblock.event.custom.tickBreakSpeed.PlayerBreakBlockTimeEvent;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.BowItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
-import net.minecraftforge.event.entity.player.PlayerEvent;
-import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 
 @Mod.EventBusSubscriber(modid = BetterSkyblockMod.MOD_ID)
 public class ModEvents {
@@ -37,4 +30,9 @@ public class ModEvents {
             }
         }
     }
+    @SubscribeEvent
+    public void onPlayerBreakBlockTime(PlayerBreakBlockTimeEvent event) {
+        event.setBreakTime(1);
+    }
 }
+

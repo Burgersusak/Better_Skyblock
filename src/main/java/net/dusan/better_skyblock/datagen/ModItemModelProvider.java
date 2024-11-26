@@ -27,7 +27,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SPIRIT_WING);
         simpleItem(ModItems.NECRON_HANDLE);
         simpleItem(ModItems.MITHRIL);
-        simpleItem(ModItems.ENCHANTED_REDSTONE);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

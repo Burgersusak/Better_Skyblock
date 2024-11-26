@@ -27,7 +27,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SPIRIT_BONE.get());
                         output.accept(ModItems.SPIRIT_WING.get());
                         output.accept(ModItems.NECRON_HANDLE.get());
-                        output.accept(ModItems.ENCHANTED_REDSTONE.get());
                     }).build());
 
 
